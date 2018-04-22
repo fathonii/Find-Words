@@ -28,6 +28,7 @@ char A[15][15] = {'t','g','b','b','w','i','n','t','e','r','w','s','e','s','n',
     } cout<<endl;
     int check,panjang,temu=0;
     char input[15];
+    LAGI:
     cout<<"masukan kata : ";
     cin>>input;
     panjang=strlen(input);
