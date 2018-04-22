@@ -29,6 +29,7 @@ main(){
 int check,panjang,temu=0;
 char input[15];
 LAGI:
+cout<<"masukan kata : ";	
 cin>>input;
 panjang=strlen(input);
 
