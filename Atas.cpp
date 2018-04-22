@@ -3,7 +3,7 @@
 using namespace std;
 //NAMA : AHMAD FATHONI
 //NPM  : 1717051053
-main(){
+int main(){
  char A[15][15] = 	{'t','g','b','b','w','i','n','t','e','r','w','s','e','s','n',
        				'a','a','u','n','t','t','m','m','h','f','o','o','d','n','b',
        				'j','l','w','c','q','l','d','z','m','p','m','v','d','m','r',
