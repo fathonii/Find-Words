@@ -41,7 +41,7 @@ for(int i=0;i<15;i++){
 				if(input[b]==A[i+b][j+b]){
 					check=b;
 				}
-				else{}
+				else{break;}
 			}
 			if(check==panjang-1){
 				temu+=1;
@@ -55,7 +55,7 @@ for(int i=0;i<15;i++){
 				if(input[b]==A[i-b][j+b]){
 					check=b;
 				}
-				else{}
+				else{break;}
 			}
 			if(check==panjang-1){
 				temu+=1;
@@ -69,7 +69,7 @@ for(int i=0;i<15;i++){
 				if(input[b]==A[i+b][j-b]){
 					check=b;
 				}
-				else{}
+				else{break;}
 			}
 			if(check==panjang-1){
 				temu+=1;
