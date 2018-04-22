@@ -6,7 +6,7 @@
                     if(input[b]==A[i][j-b]){
                         check=b;
                     }
-                    else{}
+                    else{break;}
                 }
                 if(check==panjang-1){
                     temu+=1;
@@ -20,7 +20,7 @@
                     if(input[b]==A[i-b][j]){
                         check=b;
                     }
-                    else{}
+                    else{break;}
                 }
                 if(check==panjang-1){
                     temu+=1;
@@ -34,7 +34,7 @@
                     if(input[b]==A[i+b][j]){
                         check=b;
                     }
-                    else{}
+                    else{break;}
                 }
                 if(check==panjang-1){
                     temu+=1;
