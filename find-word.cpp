@@ -40,7 +40,7 @@ char A[15][15] = {'t','g','b','b','w','i','n','t','e','r','w','s','e','s','n',
                     if(input[b]==A[i+b][j+b]){
                         check=b;
                     }
-                    else{}
+                    else{break;}
                 }
                 if(check==panjang-1){
                     temu+=1;
@@ -54,7 +54,7 @@ char A[15][15] = {'t','g','b','b','w','i','n','t','e','r','w','s','e','s','n',
                 if(input[b]==A[i-b][j+b]){
                     check=b;
                 }
-                else{}
+                else{break;}
                 }
             if(check==panjang-1){
                 temu+=1;
@@ -68,7 +68,7 @@ char A[15][15] = {'t','g','b','b','w','i','n','t','e','r','w','s','e','s','n',
             if(input[b]==A[i+b][j-b]){
                 check=b;
             }
-            else{}
+            else{break;}
             }
         if(check==panjang-1){
             temu+=1;
@@ -96,7 +96,7 @@ char A[15][15] = {'t','g','b','b','w','i','n','t','e','r','w','s','e','s','n',
             if(input[b]==A[i][j+b]){
                     check=b;
                 }
-                else{}
+                else{break;}
             }
             if(check==panjang-1){
                 temu+=1;
